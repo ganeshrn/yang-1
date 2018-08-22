@@ -1,3 +1,4 @@
 - hosts: appliance
+  gather_facts: no
   roles:
     - yang_fetch
